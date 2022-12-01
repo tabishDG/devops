@@ -1,3 +1,3 @@
 FROM python:3.9
-COPY . .
-CMD ["python", "./test_ops.py"]
+WORKDIR /project
+CMD ["python", "test_ops.py"]
